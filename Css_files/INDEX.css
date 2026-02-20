@@ -1,0 +1,293 @@
+body
+{
+    background-color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:0;
+    margin:0;
+    
+}
+.container
+{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+ul{
+    margin:0;
+    padding:0;
+
+}
+header
+{
+    background:#f9c10b;
+    color:white;
+    padding-top: 3px;
+    border-bottom:solid 5px #f9c10b;
+    min-height:50px;
+   
+}
+header a{color:white;
+         text-decoration:none;
+         font-size:19px;
+}
+header li
+{
+    float:left;
+    display:inline;
+    padding:0 3px 0 3px;
+}
+@media screen and (max-width: 768px){
+  header #conter,
+    header li{
+        float:left;
+    }
+}
+header #conter
+{
+   margin-top:10px;
+    float:left;
+}
+header #conter h{
+    margin:0;
+   
+     color:#171616;
+}
+header #conter h h{
+    color:white;
+   
+}
+
+header .conter-1
+{
+   float: left;
+   text-align:center;
+    margin:10px 16% 10px 10%;
+}
+
+header .conter-1 h a {
+    
+     color:#171616;
+
+}
+header .conter-1 h a h{
+    margin:0;
+    color:white;
+}
+
+header .conter-2{
+    float:right;
+     margin-top:10px;
+
+}
+@media screen and (max-width: 768px){
+
+    header .conter-2 {
+        float: left;
+       
+    }
+}
+
+/*                                */
+nav{
+    background: #ffffff;
+    color:black;
+    padding-top: 10px;
+    border-bottom:solid 5px #f9c10b;
+    min-height:50px;
+  /*direction:;*/
+   
+}
+nav a
+{
+    text-decoration:none;
+    font-size:19px;
+    color:black;
+}
+
+nav li
+{
+    float:right;
+    display:inline;
+    padding:0 3px 0 3px;
+}
+@media screen and (max-width: 768px){
+nav li
+{
+    float:none;
+   padding-right:50px;
+   display:inline-block;
+    
+}
+}
+
+
+nav #conter{
+    margin-top:10px;
+    float:right;
+}
+@media screen and (max-width: 768px) {
+nav #conter{
+   
+    float:none;
+    text-align:center;
+}
+}
+
+
+nav .conter-2{
+    float:left;
+     margin-top:10px;
+     direction:rtl
+}
+nav .text-danger{
+    font-size:30px;
+    color:darkred;
+}
+nav .navbar-brand{
+    font-size:25px;
+    color:#f9c10b;
+}
+
+nav .small-titil{
+   
+    
+    
+     color:red;
+}
+nav .text-warning{
+    padding-right:10px;
+     
+    padding-left:5px;
+    color:#f9c10b;
+ }
+/*            */
+#section-1{
+    max-height:400px;
+    width: 100%;
+  /*  background:url("../images/opop.jpg") no-repeat center;
+    background-size:cover;
+*/
+
+}
+.section{
+    max-height:400px;
+}
+.section-img
+{
+    width: 100%;
+    max-height:400px;
+    background-size:cover;
+
+}
+
+#neos-letter{
+    padding:15px;
+    color:white;
+    background:#f9c10b;
+
+}
+#neos-letter h1{
+    float:left;
+}
+#neos-letter form{
+    float:right;
+    margin-top:15px;
+
+}
+#neos-letter input[type="email"]
+{
+    padding:4px;
+    height:25px;
+    width:250px;
+}
+.button{
+    
+    height:40px;
+    background:#808080;
+    padding-left:20px;
+    padding-right:20px;
+    color:white;
+}
+/*                    */
+#boxes{
+    margin-top: 20px;
+
+}
+#boxes .box{
+    float:left; 
+    text-align:center;
+    width:30%;
+    padding:0px;
+}
+   footer
+   {
+       padding:20px;
+       margin-top:20px;
+       color:white;
+       text-align:center;
+       background-color:#f9c10b;
+       font-weight: bold;
+       font-size:25px;
+   }
+
+  
+.social-icon-link {
+    background: white;
+    color: #151414;
+    border-radius: 220px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+   /* vertical-align: 0px;*/
+    text-align: center;
+    text-transform: none;
+}
+.social-icon{
+    text-decoration: none;
+    font-size: 80px;
+    transform: scale(1.2);
+}
+@media screen and (max-width: 768px){
+    #neos-letter h1,
+    #neos-letter form,
+    #boxes .box,
+    .projects-thumb .social-icon-link{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+    #neos-letter .button{
+        display:block;
+        width:100%;
+    }
+    #neos-letter input[type="email"]{
+        width:100%;
+        margin-bottom:5px;
+    }
+}
+/* 
+                                   */
+                             
+.projects-thumb:hover .projects-image {
+  transform: scale(1.2);
+}
+footer .conter-2{
+   text-align:center;
+   display:inline-block;
+   margin-top:5px;
+}
+footer .conter-2 li{
+    float:left;
+    padding:0 5px 0 3px;
+    display:inline;
+}
+.projects-image
+{
+    
+    border-radius: 100%;
+    
+}

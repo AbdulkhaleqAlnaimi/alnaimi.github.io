@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "abda";
+ src: url("../fonts/bootstrap-icons.woff2") format("woff2"),
+ url("../fonts/bootstrap-icons.woff") format("woff");
+}
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  font-family: abda; 
+}
+.bi-facebook::before { content: "\f344"; }
+.bi-twitter::before { content: "\f5ef"; }
+.bi-pinterest::before { content: "\f663"; }
+.bi-clock::before { content: "\f293"; }
+.bi-arrow-counterclockwise::before { content: "\f117"; }
+.bi-google::before { content: "\f3f0"; }
+.bi-voicemail::before { content: "\f609"; }
+.bi-youtube::before { content: "\f62b"; }
+.bi-instagram::before { content: "\f437"; }
+.bi-telegram::before { content: "\f5b3"; }
+.bi-telephone::before { content: "\f5c1"; }
+.fa-phone-alt, .fa-phone-flip {
+    --fa: "\f879";
+}
+.fa-envelope-open {
+    --fa: "\f2b6";
+}
+.fa-location-dot, .fa-map-marker-alt {
+    --fa: "\f3c5";
+}

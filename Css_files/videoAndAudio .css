@@ -1,0 +1,144 @@
+body
+{
+    background-image: url(/Users/hicom/Desktop/YourName_web_Project/images/FB_IMG_1460889342208\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*,
+::after,
+::before{
+    box-sizing:border-box;
+}
+
+.section-badding{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.container{
+    width:100%;
+    padding-right:12px;
+    padding-left:12px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.row{
+     --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-right: -12px;
+    margin-left: -12px;
+
+}
+.about-image{
+    border-radius:20px;
+    width:100%;
+    height:100%;
+ /*  object-fit:cover;*/
+
+}
+.img-fluid {
+    max-width:100%;
+    height:auto;
+}
+img,
+ svg{
+    vertical-align:middle;
+}
+
+.twoe{
+    border-radius:20px;
+    position:relative;
+    overflow:hidden;
+}
+.three
+{
+    position:relative;
+    bottom:0;
+    right:0;
+    left:0;
+    padding:40px;
+}
+.three1
+{
+    border-radius:20px;
+    background:wheat;
+    overflow:hidden;
+    margin-bottom:24px;
+    padding:40px;
+}
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+::selection{
+    
+    background: #f5bc04;
+    color: white;
+}
+footer
+{
+    padding:20px;
+    margin-top:20px;
+    color:white;
+    text-align:center;
+    background-color:#808080;
+    font-weight: bold;
+    font-size:25px;
+}
+@media screen and (max-width: 991px){
+.section-badding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}}
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px){
+.container{
+    max-width: 720px;
+}}
+@media (min-width: 992px) {
+     .container {
+        max-width: 960px;
+    }
+}
+  @media (min-width: 992px){
+    .one-3{
+        margin-bottom:0;
+    }
+} 
+@media (min-width: 992px) {
+    .one {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 991px) {
+    .about-image {
+        height: auto;
+        margin-bottom: 24px;
+    }
+}
+footer .conter-2{
+    text-align:center;
+    display:inline-block;
+    margin-top:5px;
+ }
+footer .conter-2 li{
+    float:left;
+    padding:0 5px 0 3px;
+    display:inline;
+}
+a{
+    text-decoration: none;
+}

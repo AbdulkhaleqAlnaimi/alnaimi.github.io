@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+    </title>
+    <a href="https://www.facebook.com/bdalkhalqalnymy.704551">enter</a>
+    <link rel="stylesheet" href="/Users/عبد الخالق النعيمي/Desktop/YourName_web_Project0001/YourName_web_Project/Css_files/CRUDS_Operations_Pure_JavaScrip.css" />
+</head>
+<body>
+    <div class="crud">
+        <div class="head">
+            <h2>سوبر ماركت</h2>
+            <p>سوبر ماركت سوبر ماركت سوبر ماركت</p>
+        </div>
+        <div class="in-puts">
+            <input type="text" id="title"  placeholder="title" />
+            <div class="price">
+                <input onkeyup="getTotale()" type="number" id="price" placeholder="price" />
+                <input onkeyup="getTotale()" type="number" id="taxes" placeholder="taxes" />
+                <input onkeyup="getTotale()" type="number" id="ads" placeholder="ads" />
+                <input onkeyup="getTotale()" type="number" id="discount" placeholder="discount" />
+                <small id="totale"></small>
+            </div>
+            <input placeholder="count" type="number" id="count" />
+            <input placeholder="catagory" type="text" id="catagory" />
+            <button id="submit">create</button>
+        </div>
+        
+        <div class="out-pouts">
+            <div class="search-block">
+                <input type="text" id="search"
+                       placeholder="search" />
+                <div class="btn-seach">
+                    <button id="seach-title">Seach By Title</button>
+                    <button id="seach-Category">Seach By Category</button>
+                </div>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <th> رقم الصنف</th>
+                <th> اسم الصنف</th>
+                <th>السعر</th>
+                <th>الضريبه</th>
+                <th>الاعلانات</th>
+                <th>الخصم</th>
+                <th>العدد </th>
+                <td>نوع الصنف</td>
+                <td>الاجمالي</td>
+                <th>update</th>
+                <th>delete</th>
+            </tr>
+            <tbody id="tbody">
+                
+               
+               
+           
+                  
+            </tbody>
+        </table>
+    </div>
+
+    <script src="/Users/عبد الخالق النعيمي/Desktop/YourName_web_Project0001/YourName_web_Project/js/js.js"></script>
+</body>
+</html>
